@@ -1,8 +1,8 @@
 .splash-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: center !important;
+  align-items: center !important;
   min-height: 100vh;
 }
 
@@ -20,4 +20,11 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 20px;
+  text-align: center !important;
+}
+
+@media (max-width: 768px) {
+  .splash-title {
+    text-align: center;
+  }
 }
