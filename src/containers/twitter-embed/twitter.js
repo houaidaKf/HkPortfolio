@@ -39,8 +39,8 @@ export default function Twitter() {
               placeholder={renderLoader()}
               autoHeight={false}
               borderColor="#fff"
-              key={isDark ? "1" : "2"}
-              theme={isDark ? "dark" : "light"}
+              key="1"
+              theme="dark"
               noFooter={true}
               onload={timeOut()}
             />
