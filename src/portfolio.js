@@ -114,10 +114,10 @@ const educationInfo = {
     },
     {
       schoolName: "Romana High School",
-      logo: require("./assets/images/romana.jpg"),
+      logo: require("./assets/images/romania.jpg"),
       subHeader: "Baccalaureate in Experimental Sciences​​",
       duration: "September 2017 - June 2018",
-      descBullets: ["Sousse, Tunisia"]
+      descBullets: ["Sousse, Tunisia"] 
     }
   ]
 };
