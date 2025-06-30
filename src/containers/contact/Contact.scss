@@ -2,6 +2,7 @@
 
 .contact-div-main {
   display: flex;
+  align-items: center;
 }
 
 .dark-mode a {
@@ -13,14 +14,14 @@
 }
 
 .contact-title {
-  font-size: 65px;
+  font-size: 45px;
   font-weight: 400;
 }
 
 .contact-detail,
 .contact-detail-email {
   margin-top: 20px;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 400;
   color: $subTitle;
   text-decoration: none;
@@ -42,7 +43,7 @@
 }
 
 .contact-margin-top {
-  margin-top: 4rem;
+  margin-top: 0rem;
 }
 
 .contact-image-div > img {

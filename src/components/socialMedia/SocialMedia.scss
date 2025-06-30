@@ -1,5 +1,10 @@
 @import "../../_globalColor";
 
+
+.dark-icon-button {
+  background-color: #000000;       
+}
+
 .social-media-div {
   font-size: 2em;
 }
@@ -33,7 +38,7 @@
 }
 
 .linkedin i {
-  background-color: $linkedin;
+  background-color: $darkIcon;
 }
 
 .github i {
