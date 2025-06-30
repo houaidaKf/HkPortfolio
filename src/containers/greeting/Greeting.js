@@ -22,11 +22,7 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1
-                className={
-                  isDark ? "dark-mode greeting-text " : "greeting-text"
-                }
-              >
+              <h1 className="dark-mode greeting-text">
                 <TypingAnimation
                   startOnView={true}
                   className="inline-block m-0"

@@ -15,13 +15,7 @@ export default function Talks() {
       <div className="main" id="talks">
         <div className="talk-header">
           <h1 className="talk-header-title">{talkSection.title}</h1>
-          <p
-            className={
-              isDark
-                ? "dark-mode talk-header-subtitle"
-                : "subTitle talk-header-subtitle"
-            }
-          >
+          <p className="dark-mode talk-header-subtitle">
             {talkSection.subtitle}
           </p>
           {talkSection.talks.map((talk, i) => {

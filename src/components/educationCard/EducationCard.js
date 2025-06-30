@@ -39,18 +39,12 @@ export default function EducationCard({school}) {
 
             <div className="education-text-details">
               <h5
-                className={
-                  isDark
-                    ? "dark-mode education-text-subHeader"
-                    : "education-text-subHeader"
-                }
+                className="dark-mode education-text-subHeader"
               >
                 {school.subHeader}
               </h5>
               <p
-                className={`${
-                  isDark ? "dark-mode" : ""
-                } education-text-duration`}
+                className={`dark-mode education-text-duration`}
               >
                 {school.duration}
               </p>

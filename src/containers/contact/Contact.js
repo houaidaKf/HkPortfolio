@@ -16,18 +16,12 @@ export default function Contact() {
           <div className="contact-header">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
             <p
-              className={
-                isDark
-                  ? "dark-mode contact-subtitle"
-                  : "subTitle contact-subtitle"
-              }
+              className="dark-mode contact-subtitle"
             >
               {contactInfo.subtitle}
             </p>
             <div
-              className={
-                isDark ? "dark-mode contact-text-div" : "contact-text-div"
-              }
+              className="dark-mode contact-text-div"
             >
               {contactInfo.number && (
                 <>
