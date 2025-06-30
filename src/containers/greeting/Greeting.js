@@ -41,7 +41,7 @@ export default function Greeting() {
               </p>
 
               <span className="relative mt-2 text-xs md:text-sm font-medium inline-flex items-center text-black-400 dark:text-zinc-200">
-                Sousse, Tunisie
+                Sousse, Tunisia
               </span>
 
               <div className="d-flex align-items-baseline ">
