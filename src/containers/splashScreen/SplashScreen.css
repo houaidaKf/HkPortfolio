@@ -13,7 +13,13 @@
 .splash-title-container {
   font-size: 2.5rem;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
+
 .splash-title {
   font-family: "Agustina Regular", cursive;
   font-weight: bold;
@@ -24,11 +30,8 @@
 }
 
 @media (max-width: 768px) {
-  .splash-title {
-    text-align: center !important;
-  }
-  .splash-container{
-     justify-content: center !important;
-  align-items: center !important;
+  .splash-title-container {
+    justify-content: center;
+    text-align: center;
   }
 }
